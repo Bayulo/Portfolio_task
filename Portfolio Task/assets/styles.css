@@ -1,0 +1,745 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 10mm;
+    padding-top: 4mm;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background-color: white;
+    padding-left: 20mm;
+    padding-right: 20mm;
+}
+.nav_bar_items{
+    display: inline-block;
+    float: right;
+    margin-right: 30mm;
+    margin-top: 0mm;
+}
+.items{
+    display: inline-block;
+    float: right;
+    margin: 0 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Brian{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6mm;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.long_div{
+    margin-top: 15mm;
+    height: 690mm;
+    background-image: url(img/rainbow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#intro{
+    padding-top: 20mm;
+    text-align: center;
+}
+#hello{
+    display: block;
+    text-align: center;
+    font-size: 6mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(106, 107, 108);
+}
+#intro_1{
+    text-align: center;
+    display: block;
+    font-size: 15mm;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25mm;
+    margin-top: 2mm;
+    margin-right: 25mm;
+}
+#brand{
+    font-family:'Times New Roman', Times, serif;
+}
+#intro_2{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6mm;
+    color: rgb(106, 107, 108);
+    line-height: 10mm;
+    margin-top: 2mm;
+    margin-right: 25mm;
+    margin-left: 25mm;
+}
+#about{
+    height: 220mm;
+    margin-top: 80mm;
+    padding-left: 20mm;
+    padding-right: 20mm;
+}
+.more_about{
+    margin-bottom: 10mm;
+}
+.more{
+    display: block;
+    font-size: 12mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(27, 27, 27);
+    margin-bottom: 6mm;
+}
+.abt{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 12mm;
+}
+.I{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5.5mm;
+    display: block;
+    width: 40%;
+    line-height: 8mm;
+}
+.lor{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 50%;
+    margin-top: 6mm;
+    line-height: 7mm;
+    font-size: 4.5mm;
+    color: rgb(106, 106, 106);
+}
+.download_resume{
+    width: 50mm;
+    height: 12mm;
+    border-radius: 6mm;
+    font-size: 4mm;
+    background-color: rgb(0, 179, 255);
+    color: white;
+    border: none;
+}
+.download_resume:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+.linkedin{
+    width: 45mm;
+    height: 12mm;
+    border-radius: 6mm;
+    font-size: 4mm;
+    color: rgb(85, 85, 85);
+    background-color: white;
+    border: solid rgb(85, 85, 85);
+}
+.linkedin:hover{
+    background-color:rgb(85, 85, 85);
+    color: white;
+    transition: 0.5s;
+}
+.work{
+    display: flex;
+}
+.my_work{
+    width: 30%;
+    margin-top: 15mm;
+}
+.viv{
+    display: block;
+    width: 100%;
+    margin-top: 6mm;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 7mm;
+    font-size: 4.5mm;
+    color: rgb(106, 106, 106);
+}
+.icons_carrier{
+    width: 10mm;
+    margin-left: 15mm;
+    margin-right: 3mm;
+}
+.icon_1{
+    margin-top: 15mm;
+    width: 10mm;
+    height: 10mm;
+    background-image: url(img/idea.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon_2{
+    margin-top: 35mm;
+    width: 10mm;
+    height: 10mm;
+    background-image: url(img/vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon_3{
+    margin-top: 15mm;
+    width: 10mm;
+    height: 10mm;
+    background-image: url(img/puzzle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon_4{
+    margin-top: 35mm;
+    width: 10mm;
+    height: 10mm;
+    background-image: url(img/cube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.concept_retouch{
+    display: inline-block;
+    float: right;
+    height: 80mm;
+    margin-top: 15mm;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.concept{
+    line-height: 7mm;
+    font-size: 4.5mm;
+    color: rgb(106, 106, 106);
+}
+.retouch{
+    margin-top: 15mm;
+    line-height: 7mm;
+    font-size: 4.5mm;
+    color: rgb(106, 106, 106);
+}
+.head{
+    font-size: 6mm;
+    color: black;
+    margin-bottom: 3mm;
+    display: block;
+    font-weight:bold;
+}
+#portfolio{
+    height: 300mm;
+    text-align: center;
+    padding-left: 20mm;
+    padding-right: 20mm;
+}
+.my_portfolio{
+    font-size: 12mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(27, 27, 27);
+    margin-top: 30mm;
+}
+.port_row_1{
+    margin-top: 25mm;
+    display: flex;
+    height: 90mm;
+}
+.pic_holder{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 7mm;
+    display: inline-block;
+    text-align: left;
+    height: 90mm;
+    width: 90mm;
+    margin-right: 5mm;
+}
+.pic_1a{
+    width: 100%;
+    height: 70mm;
+    margin-bottom: 5mm;
+    background-image: url(img/1a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic_2a{
+    width: 100%;
+    height: 70mm;
+    margin-bottom: 5mm;
+    background-image: url(img/2a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic_3a{
+    width: 100%;
+    height: 70mm;
+    margin-bottom: 5mm;
+    background-image: url(img/3a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic_1{
+    width: 100%;
+    height: 70mm;
+    margin-bottom: 5mm;
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic_2{
+    width: 100%;
+    height: 70mm;
+    margin-bottom: 5mm;
+    background-image: url(img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic_3{
+    width: 100%;
+    height: 70mm;
+    margin-bottom: 5mm;
+    background-image: url(img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic_holder_3{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 7mm;
+    display: inline-block;
+    text-align: left;
+    height: 90mm;
+    width: 90mm;
+}
+.large_pic_font{
+    font-size: 6mm;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+}
+.col_red{
+    color: red;
+}
+.col_green{
+    color: green;
+}
+.col_yellow{
+    color: rgb(241, 179, 79);
+}
+.col_blue{
+    color: blue;
+}
+#testimonial{
+    background-image: url(img/rainbow.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200mm;
+    padding-left: 20mm;
+    padding-right: 20mm;
+}
+.statement{
+}
+.proud{
+    display: block;
+    font-size: 12mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(27, 27, 27);
+    margin-bottom: 6mm;
+    width: 50%;
+    margin-top: 20mm;
+}
+.bring{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 7mm;
+    font-size: 6mm;
+    color: rgb(106, 106, 106);
+    width: 50%;
+}
+.testimonial_1{
+    display: flex;
+}
+.customer_satisfaction{
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    margin-top: 20mm;
+}
+.awards_won{
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    margin-right: 5mm;
+    margin-top: 20mm;
+}
+.completed_projects{
+    text-align: center;
+    display: inline-block;
+    margin-left: -50mm;
+    width: 20%;
+    margin-right: 5mm;
+    margin-top: 20mm;
+}
+.titl{
+    font-size: 12mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(27, 27, 27);
+}
+.icon_test_1{
+    margin-top: 10mm;
+    width: 10mm;
+    height: 10mm;
+    background-image: url(img/target.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 40%;
+    margin-bottom: 3mm;
+}
+.icon_test_2{
+    margin-top: 10mm;
+    width: 10mm;
+    height: 10mm;
+    background-image: url(img/medal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 40%;
+    margin-bottom: 3mm;
+}
+.icon_test_3{
+    margin-top: 10mm;
+    width: 10mm;
+    height: 10mm;
+    background-image: url(img/ratings.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 40%;
+    margin-bottom: 3mm;
+}
+.tes_text{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 7mm;
+    font-size: 4.5mm;
+    color: rgb(106, 106, 106);
+}
+.testimonial_2{
+    display: flex;
+    height: 80mm;
+    margin-top: 20mm;
+}
+.test_card{
+    display: inline-block;
+    width: 25%;
+    background-color: white;
+    margin-right: 5mm;
+    border-radius: 3mm;
+    padding: 8mm 8mm;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 7mm;
+    font-size: 5mm;
+    color: rgb(106, 106, 106);
+    box-shadow: -1mm 2mm 5mm 1mm;
+}
+.test_card_last{
+    display: inline-block;
+    width: 25%;
+    background-color: white;
+    border-radius: 3mm;
+    padding: 8mm 8mm;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 7mm;
+    font-size: 5mm;
+    color: rgb(106, 106, 106);
+    box-shadow: -1mm 2mm 5mm 1mm;
+}
+.author{
+    display: inline-block;
+    margin-top: 5mm;
+    font-weight: bold;
+    color: black;
+}
+#services{
+    height: 290mm;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    padding-left: 20mm;
+    padding-right: 20mm;
+}
+.left{
+    width: 35%;
+    margin-right: 5mm;
+}
+.middle{
+    width: 35%;
+    margin-right: 10mm;
+}
+.right{
+    width: 50%;
+    margin-top: 70mm;
+}
+.content_marketing{
+    text-align: center;
+    height: 100mm;
+    margin-top: 20mm;
+    background-color: white;
+    border-radius: 3mm;
+    box-shadow: -1mm 2mm 5mm 1mm;
+    padding: 5mm 5mm;
+}
+.social_engagement{
+    text-align: center;
+    margin-top: 15mm;
+    height: 100mm;
+    background-color: white;
+    border-radius: 3mm;
+    box-shadow: -1mm 2mm 5mm 1mm;
+    padding: 5mm 5mm;
+}
+.product_design{
+    text-align: center;
+    height: 100mm;
+    margin-top: 35mm;
+    background-color: white;
+    border-radius: 3mm;
+    border-radius: 3mm;
+    box-shadow: -1mm 2mm 5mm 1mm;
+    padding: 5mm 5mm;
+}
+.identity_branding{
+    text-align: center;
+    margin-top: 15mm;
+    height: 100mm;
+    background-color: white;
+    border-radius: 3mm;
+    box-shadow: -1mm 2mm 5mm 1mm;
+    padding: 5mm 5mm;
+}
+.cards_head{
+    display: inline-block;
+    width: 35%;
+    font-size: 7mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(27, 27, 27);
+    width: 70%;
+    margin-bottom: 5mm;
+}
+.service_card_text{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10mm;
+    font-size: 5mm;
+    color: rgb(106, 106, 106);
+    margin-bottom: 10mm;
+}
+.service_icon_1{
+    width: 10mm;
+    height: 10mm;
+    margin-left: 40%;
+    margin-top: 10mm;
+    margin-bottom: 5mm;
+    background-image: url(img/paper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service_icon_2{
+    width: 10mm;
+    height: 10mm;
+    margin-left: 40%;
+    margin-top: 10mm;
+    margin-bottom: 5mm;
+    background-image: url(img/networking.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service_icon_3{
+    width: 10mm;
+    height: 10mm;
+    margin-left: 40%;
+    margin-top: 10mm;
+    margin-bottom: 5mm;
+    background-image: url(img/cube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service_icon_4{
+    width: 10mm;
+    height: 10mm;
+    margin-left: 40%;
+    margin-top: 10mm;
+    margin-bottom: 5mm;
+    background-image: url(img/idea.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.learn_more_color{
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my_areas{
+    text-align: center;
+    display: block;
+    font-size: 10mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(27, 27, 27);
+}
+.exp{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 10mm;
+}
+.righ_text_short{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5.5mm;
+    display: block;
+    line-height: 8mm;
+}
+.righ_text_long{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    line-height: 7mm;
+    font-size: 4.5mm;
+    color: rgb(106, 106, 106);
+}
+.more_details{
+    width: 50mm;
+    height: 15mm;
+    border-radius: 6mm;
+    font-size: 4mm;
+    background-color: rgb(0, 179, 255);
+    color: white;
+    border: none;
+}
+.more_details:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+#contact{
+    height: 270mm;
+    background-image: url(img/rainbow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20mm;
+    padding-right: 20mm;
+    padding-top: 20mm;
+}
+.contact_1{
+    display: flex;
+    height: 90mm;
+}
+.contact_like{
+    width: 50%;
+    margin-top: 20mm;
+}
+.contact_field{
+    width: 50%;
+    padding-top: 20mm;
+}
+.if_you_like{
+    display: block;
+    font-size: 12mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(27, 27, 27);
+    text-align: left;
+    margin-bottom: 7mm;
+}
+.l_work{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 12mm;
+}
+.question{
+    text-align: left;
+    font-size: 7mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: rgb(81, 81, 81);
+    text-align: left;
+}
+.contact_img{
+    width: 10mm;
+    height: 10mm;
+    background-image: url(img/message.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input{
+    width: 60mm;
+    height: 10mm;
+    border-radius: 3mm;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 2mm;
+    margin-bottom: 5mm;
+    padding: 2mm 2mm;
+    font-size: large;
+    border: none;
+}
+textarea{
+    width: 125mm;  
+    border-radius: 3mm; 
+    height: 40mm;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5mm 5mm;
+    font-size: large;
+    border: none;
+}
+.send_message{
+    width: 50mm;
+    height: 15mm;
+    border-radius: 6mm;
+    font-size: 4mm;
+    background-color: rgb(0, 179, 255);
+    color: white;
+    border: none;
+    margin-top: 10mm;
+}
+.cont_list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110mm;
+    text-align: center;
+}
+.contact_dets{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6mm;
+}
+.foot{
+    text-align: center;
+}
+.social_handles{
+    text-align: center;
+}
+.social_handles_1{
+    width: 5mm;
+    height: 5mm;
+    display: inline-block;
+    background-image: url(img/twitter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.social_handles_2{
+    width: 5mm;
+    height: 5mm;
+    display: inline-block;
+    background-image: url(img/facebook.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.social_handles_3{
+    width: 5mm;
+    height: 5mm;
+    display: inline-block;
+    background-image: url(img/basketball.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.social_handles_4{
+    width: 5mm;
+    height: 5mm;
+    display: inline-block;
+    background-image: url(img/instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.social_handles_5{
+    width: 5mm;
+    height: 5mm;
+    display: inline-block;
+    background-image: url(img/youtube.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
